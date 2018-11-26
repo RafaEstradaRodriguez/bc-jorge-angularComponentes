@@ -1,0 +1,10 @@
+<p>
+  Soy un hijo y mi nombre es: {{ nombre }}
+<!-- Añadir input -->
+<input 
+  type="number"
+  [(ngModel)] = "cantidad"
+  name="cantidad"
+>
+  <button (click)="onPedirDinero($event)">Pedir Dinero a papá</button>
+</p>
